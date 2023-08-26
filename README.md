@@ -40,7 +40,7 @@ docker run -d --restart always --name nginx_netology -p 80:80 -v /var/www/html:/
 
 ```--name nginx_netology``` - заданное мной вручную название контейнера
 
-```-p 80:80``` - порт по которому будет доступен контейнер
+```-p 80:80``` - порт, по которому будет доступен контейнер
 
 ```/var/www/html``` - директория на хостовой машине, в которой содержится индексная страница
 
@@ -85,6 +85,7 @@ COPY /var/www/html/index.html /usr/share/nginx/html/index.html
 ![img_15.png](IMG/img_15.png)
 
 Ссылки на репозитории:
+
 https://hub.docker.com/r/demonium1988/nginx_netology
 
 https://hub.docker.com/r/demonium1988/nginx_dfile
@@ -179,7 +180,7 @@ MongoDB — это служба баз данных NoSQL с высокой пр
 
 ```RUN  mkdir /ansible && \ ...``` - в этом блоке в директиве RUN создаются рабочая директория Ansible для размещения файла конфигурации, а также создается директория для файла с указываем имени хоста для Ansible.
 
-```WORKDIR /ansible ``` - директива WORKDIR задает рабочую директорию Ansible.
+```WORKDIR /ansible``` - директива WORKDIR задает рабочую директорию Ansible.
 
 ```COPY ansible.cfg /ansible/``` - директива COPY копирует файл конфигурации ansible.cfg в созданную ранее директорию /ansible.
 
@@ -191,7 +192,7 @@ MongoDB — это служба баз данных NoSQL с высокой пр
 
 ![img_10.png](IMG/img_10.png)
 
-Загружаю обоаз на Docker Hub:
+Загружаю образ на Docker Hub:
 
 ![img_11.png](IMG/img_11.png)
 

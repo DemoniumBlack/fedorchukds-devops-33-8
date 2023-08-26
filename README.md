@@ -84,7 +84,10 @@ COPY /var/www/html/index.html /usr/share/nginx/html/index.html
 
 ![img_15.png](IMG/img_15.png)
 
-Ссылки на репозитории: https://hub.docker.com/r/demonium1988/nginx_netology и https://hub.docker.com/r/demonium1988/nginx_dfile
+Ссылки на репозитории:
+https://hub.docker.com/r/demonium1988/nginx_netology
+
+https://hub.docker.com/r/demonium1988/nginx_dfile
 
 ## Задача 2
 

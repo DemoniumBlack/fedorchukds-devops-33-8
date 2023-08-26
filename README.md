@@ -73,7 +73,7 @@ COPY /var/www/html/index.html /usr/share/nginx/html/index.html
 ![img_12.png](IMG/img_14.png)
 
 
-* Публикую созданный образы в собственном репозитории в Docker Hub.
+* Публикую созданные образы в собственном репозитории в Docker Hub.
 
 Для этого авторизуюсь в Docker Hub:
 ![img_3.png](IMG/img_3.png)
